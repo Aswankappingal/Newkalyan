@@ -1,0 +1,376 @@
+/* icons nav */
+.collections a{
+    font-size: 12px;
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+}
+.collections ion-icon{
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+}
+/* .collections a:hover{
+    color: black;
+} */
+
+/* navsection */
+.navimage img{
+    width: 45%;
+    margin-top: 30px;
+}
+.navlinks a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #777171;
+    font-weight: normal;
+    
+}
+.navlinks{
+    padding-top: 60px;
+}
+.navlinks a:hover{
+       border-bottom: 1px solid #e30613;
+       color: #e30613;
+}
+.ourb a{
+    color: #e30613;
+    border-bottom: 1px solid #e30613;
+}
+/* image section */
+.main-image img{
+    width: 100%;
+}
+/* .data-full {
+    gap: 10px;
+    color: red;
+ 
+} */
+.nav-whole-section{
+    gap: 10px;
+}
+.color-section{
+    background-color: #91573d;
+     margin-top: -8px;
+     height: 40px;
+     position: sticky;
+     top: 0%;
+}
+.nav-whole-section span{
+    color: #bdbbba;
+    font-size: 16px;
+    font-weight: 480;
+} 
+.border-left{
+    border-left: 1px solid black;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 50%;   
+
+}
+/* heading center  */
+.head-section{
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+.paragraph p{
+    font-size: 15px;
+    color: #656a6e;
+}
+.paragraph a{
+    text-decoration: none;
+    color: #343a40;
+    border: 1px solid #343a40;
+    padding: 10px 25px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.paragraph a:hover{
+    background-color:#343a40;
+    color: white;
+
+}
+/* images collections */
+.images-collection{
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .images-collection img{
+    width: 60%;
+    transition: 0.5s;
+    height: 50%;
+  }
+  .images-collection img:hover{
+    /* -webkit-filter: brightness(.5); */
+    filter: brightness(.3);
+    transition: 0.5s;
+  }
+  .hide-btn {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .colction-img:hover img{
+    filter: brightness(0.2);
+  }
+  
+  .colction-img:hover .hide-btn {
+    opacity: 1;
+  }
+  .colction-img:hover .hide-btn a{
+    /* opacity: 1; */
+    color: white;
+  }
+  
+  .hide-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .hide-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+  .colction-img{
+    position: relative;
+  }
+  .colction-img .hide-btn{
+   color: white;
+   text-decoration: none;
+   border: 1px solid white;
+   width: 270px;
+   height: 60px;
+   padding-top: 17px;
+   opacity: 0;
+   
+  }
+  .video{
+    text-align: center;
+
+  }
+  .video iframe{
+    width: 80%;
+    height: 500px;
+    margin-top: 10px;
+    
+  }
+  /* last footer  */
+  .data-input-main{
+    display: flex;
+    background-color: #e6e7e2;
+    height: 100px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 10px;
+}
+.right-last-icons{
+    background-color: red;
+    color: white;
+    margin-top: 40px;
+    padding: 7px 5px;
+ 
+}
+.para-in{
+    background-color: white;    
+    height: 30px;
+    margin-top: 40px;
+    padding: 5px 10px;
+    
+
+
+}
+.para-in p{
+    padding: 3px;
+}
+.email-section input{
+    border: none;
+    padding: 2px 14px;
+    margin-top: 43px;
+}
+/* footer section */
+/* red color text section full */
+.parent-class{
+    display: flex;
+    color: #e30613;
+    margin-top: 30px;
+    gap: 20px;
+    font-size: 15px;
+    /* flex-wrap: wrap; */
+}
+/* WHATSAPP SINGLE  */
+.logo-number i{
+      font-size: 18px;
+}
+.icon-whole{
+    display: flex;
+    font-size: 22px;
+    gap: 3px;
+}
+.icon-whole i{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 25px;
+    width: 10%;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: red;
+    color: white;
+}
+.whole{
+    width: 100%;
+    padding-left: 200px;
+    height: 300px;
+}
+.data-l h3{
+    font-size: 16px;
+}
+.main-items h5{
+    font-size: 10px;
+    color: #253953;
+    margin-top: 7px;
+    
+   
+}
+.main-items div{
+    border-left: 1px solid black;
+} 
+.main-items{
+    padding-top: 33px;
+    padding-left: 20px;
+}
+.inputs-full input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.select-last select{
+    border: none;
+    color: black;
+    border-bottom: 1px solid #253953;
+}
+
+.selection-but select{
+    color: #e30613;
+   
+}
+.btn-new a{
+    border:1px solid red;
+    text-decoration: none;
+    color: red;
+    padding: 2px 10px;
+    float: right;
+    margin-top: 20px;
+}
+.btn-new {
+    margin-left: 10px;
+}
+/* right side */
+.data-l{
+    margin-top: 20px;
+}
+
+
+@media(min-width:320px) and (max-width:575.98px){
+    .collections a{
+         font-size: 7px;
+     }
+    .collections ion-icon{
+         font-size: 7px;
+         margin-right: 10px;
+         padding: 5px;
+         margin-top: 5px;
+    }
+    .navimage img{
+        width: 33%;
+        margin-top: 20px;
+    }
+    .images-collection img{
+        width: 70%;
+        height: 300px;
+    }
+    .images-collection{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+      }
+      .video iframe{
+        width: 90%;
+        height: 230px;
+        margin-top: 30px;
+        
+      }
+      .data-input-main{
+        height: 180px;
+        flex-wrap: wrap;
+         padding-bottom: 100px;
+      
+    }
+    .para-in{
+        background-color: white;    
+        height: 30px;
+        margin-top: 40px;
+        padding: 2px 10px;
+        
+    
+    
+    }
+    .para-in p{
+        /* padding: 3px; */
+        font-size: 9px;
+    }
+    .email-section input{
+        border: none;
+        padding: 2px 14px;
+        margin-top: 0px !important;
+    }
+    .whole{
+        width: 70%;
+        padding-left: 90px;
+        height: 300px;
+    }
+    .parent-class{
+        margin-top: 30px;
+        gap: 20px;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    /* .email-red{
+        border: 1px solid black;
+    } */
+    .logo-number i{
+        font-size: 18px;
+  }
+  .icon-whole{
+      display: flex;
+      font-size: 22px;
+      gap: 3px;
+  }
+  .icon-whole i{
+      border: 1px solid transparent;
+      border-radius: 100%;
+      height: 25px;
+      width: 50%;
+      font-size: 16px;
+      text-align: center;
+      padding-top: 3px;
+  }    
+      
+}
