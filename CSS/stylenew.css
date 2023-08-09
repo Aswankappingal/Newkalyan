@@ -603,3 +603,60 @@
     
 
 }
+@media(min-width:576px) and (max-width:767.98px){
+    /* .system-banner{
+        display: none;
+    } */
+    /* .phone-banner{
+        display: inline-block;
+    } */
+    .banner img{
+        margin-top: 10px;
+        background-size: cover;
+    }
+    .banner{
+       position: relative;
+       width: 100%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .bannersub{
+        position: absolute;
+        color: white;
+        text-align: center;
+        left: 20%;
+        top: 25%;
+    }
+    .bannersub h1{
+        font-size: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        line-height: 45px;
+        font-weight: 200;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    .border{
+        border-bottom: 1px solid white;
+        width: 100px;
+        margin: auto;
+    }
+    .bannersub p{
+        font-size: 13px;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Lato';
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding-top: 3px;
+        margin-bottom: 0px;
+    }
+     .main{
+        width: 180%;
+    } 
+} 
